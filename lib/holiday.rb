@@ -74,8 +74,8 @@ def all_holidays_with_bbq(holiday_hash)
   # include the string "BBQ"
   holiday_hash.each do |season|
     season.each do |holiday, stuff|
-      holiday.select do |stuff|
-        if stuff == ["BBQ"]
+      holiday.select do |thing|
+        if thing == "BBQ"
           puts holiday
         end
       end
