@@ -75,7 +75,7 @@ def all_holidays_with_bbq(holiday_hash)
     puts season
 
     holidays.select do |holiday, stuff|
-      binding.pry
+      
          stuff.include?(["BBQ"])
          puts holiday
     end
