@@ -77,7 +77,7 @@ def all_holidays_with_bbq(holiday_hash)
     holidays.select do |holiday, stuff|
       
          stuff.include?(["BBQ"])
-         puts holiday
+         puts "#{holiday}"
     end
   end
 end
