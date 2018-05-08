@@ -77,7 +77,7 @@ def all_holidays_with_bbq(holiday_hash)
        elsif holiday_hash[season][holiday].delete_if do |stuff|
          stuff.include?("nil")
        end
-
+end 
     end
   end
 
