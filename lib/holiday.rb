@@ -76,5 +76,5 @@ def all_holidays_with_bbq(holiday_hash)
          holiday if stuff.include?("BBQ")
        end
   end
-  binding.pry
+
 end
